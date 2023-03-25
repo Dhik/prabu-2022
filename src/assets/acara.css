@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section.bg-home-7 {
+  height: 100%;
+  margin: 0;
+  padding: 40px;
+  background-image: url("../assets/home/acara.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container_acara {
+  background: url("../views/img/live.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.container_body {
+  position: relative;
+  top: 20vh;
+  justify-content: center;
+  text-align: center;
+  margin: 0 100px;
+}
+.container_body .btn_chat {
+  background-color: #6c7358;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(108, 115, 88, 0.25);
+  font-weight: 600;
+  padding: 5px 20px;
+  letter-spacing: 0.05rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: 10px 0;
+}
+.ratio {
+  position: relative;
+  z-index: 5;
+}
+.wrapper .bg_awan img {
+  width: 100%;
+  height: 70vh;
+}
+.container_title {
+  position: relative;
+  z-index: 10;
+}
+.container_footer {
+  position: relative;
+  z-index: 10;
+  top: 40vh;
+  text-align: center;
+  margin: 0 100px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(143, 143, 156, 0.3);
+}
+.container_footer .sponsor,
+.medpart {
+  font-family: "Poppins", sans-serif;
+  padding: 10px 0;
+  font-weight: 500;
+}
+.container_footer .img_sponsor,
+.img_medpart {
+  padding: 10px 0;
+}
+.container_footer .img_sponsor img,
+.img_medpart img {
+  padding: 10px 10px;
+}
+
+.slide-fade-enter-active {
+  transition: all 0.2s ease;
+}
+.slide-fade-leave-active {
+  transition: all 0.2s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.slide-fade-enter, .slide-fade-leave-to
+  /* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateY(30px);
+  opacity: 0;
+}
+
+.rotate {
+  display: none;
+}
+
+/* Acara */
+.gambar-sponsor {
+  max-width: 200px;
+  max-height: 200px;
+}
+.video {
+  margin-right: 10px;
+}
+.chat {
+  margin-left: 10px;
+}
+.title-live-vid {
+  background-color: #7f5539;
+  padding: 10px;
+}
+.title_vid {
+  text-align: left;
+  padding: 0 10px;
+  color: white;
+}
+.small {
+  font-size: smaller;
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+.smallsosmed {
+  font-size: smaller;
+  color: white;
+  text-align: left;
+  padding: 2px 10px;
+}
+.avatar {
+  margin-top: 10px;
+}
+.drowdown {
+  cursor: pointer;
+}
+@media screen and (orientation: portrait) {
+  body {
+    background: white !important;
+  }
+  /* .acara, .wrapper, .modal, .container_nav, .container, .container_body, .container_footer, .bg-modal , .contentBox {
+        display: none;
+    } */
+  .container_acara {
+    display: none;
+  }
+  .iklan-container {
+    display: none;
+  }
+  .bg-modal {
+    background-color: transparent;
+  }
+
+  .rotate {
+    display: block;
+    animation: slide_up 1s ease;
+  }
+  @keyframes slide_up {
+    0% {
+      transform: translateY(800px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  .rotate h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45vh;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .rotate p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -45vh;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+  }
+}
+
+button {
+  border-radius: 20px;
+  border: 1px solid #ff4b2b;
+  background-color: #ff4b2b;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+span {
+  font-size: 12px;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+}
+
+button.ghost {
+  background-color: transparent;
+  border-color: #ffffff;
+}
+
+/* form {
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	text-align: center;
+} */
+div.log-in {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+
+input {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+}
+
+.form-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+}
+
+.sign-in-container {
+  left: 0;
+  width: 50%;
+  z-index: 2;
+}
+
+.container.right-panel-active .sign-in-container {
+  transform: translateX(100%);
+}
+
+.sign-up-container {
+  left: 0;
+  width: 50%;
+  opacity: 0;
+  z-index: 1;
+}
+
+.container.right-panel-active .sign-up-container {
+  transform: translateX(100%);
+  opacity: 1;
+  z-index: 5;
+  animation: show 0.6s;
+}
+
+.overlay-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+  z-index: 100;
+}
+
+.container.right-panel-active .overlay-container {
+  transform: translateX(-100%);
+}
+
+.overlay {
+  background: #28244c;
+  background: -webkit-linear-gradient(to right, #28244c, #28244c);
+  background: linear-gradient(to right, #28244c, #28244c);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  color: #ffffff;
+  position: relative;
+  left: -100%;
+  height: 100%;
+  width: 200%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+}
+
+.container.right-panel-active .overlay {
+  transform: translateX(50%);
+}
+
+.overlay-panel {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+}
+
+.overlay-left {
+  transform: translateX(-20%);
+}
+
+.container.right-panel-active .overlay-left {
+  transform: translateX(0);
+}
+
+.overlay-right {
+  right: 0;
+  transform: translateX(0);
+}
+
+.container.right-panel-active .overlay-right {
+  transform: translateX(20%);
+}
+
+.social-container {
+  margin: 20px 0;
+}
+
+.social-container a {
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+}

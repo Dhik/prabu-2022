@@ -1,0 +1,326 @@
+.bg-faq2 {
+  height: 350vh;
+  margin: 0;
+  background-image: url("../assets/home/faq.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-position: relative; */
+}
+
+#faq .faq {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  font-family: "GROBOLD";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  background: linear-gradient(180deg, #ad3c3f 0%, #ff6165 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+#faq .faq2 {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  font-family: "GROBOLD";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  background: linear-gradient(180deg, #ad3c3f 0%, #ff6165 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#faq h5 {
+  padding-left: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  color: #717171;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#faq h6 {
+  padding-left: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  color: #717171;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#faq h6 {
+  padding-left: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #717171;
+}
+
+#faq .accordion {
+  width: 98%;
+  color: #ff6165;
+}
+
+h2,
+h1 {
+  text-transform: capitalize;
+}
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+
+ul li input[type="checkbox"] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+}
+
+ul li i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 16px;
+  right: 0;
+}
+
+ul li input[type="checkbox"]:checked ~ p {
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translateX(-50%);
+}
+
+ul li input[type="checkbox"]:checked ~ i::before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+
+ul li input[type="checkbox"]:checked ~ i::after {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+
+ul li i::before,
+ul li i::after {
+  content: "";
+  position: absolute;
+  background: #ff6165;
+  width: 3px;
+  height: 9px;
+}
+
+ul li i::before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+
+ul li i:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+
+p {
+  margin: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #717171;
+  /* letter-spacing: 1px; */
+  position: relative;
+  max-height: 800px;
+  /* margin-top: 14px; */
+  opacity: 1;
+  width: 96%;
+  transform: translate(0, 0);
+  overflow: hidden;
+}
+
+.transition,
+p,
+ul li i:before,
+ul li i:after {
+  transition: all 0.25s ease-in-out;
+}
+
+.flipIn,
+h1,
+ul li {
+  animation: flipdown 0.5s ease both;
+}
+
+ul li:nth-of-type(1) {
+  animation-delay: 0.5s;
+}
+
+ul li:nth-of-type(2) {
+  animation-delay: 0.75s;
+}
+
+ul li:nth-of-type(3) {
+  animation-delay: 1s;
+}
+
+ul li:last-of-type {
+  padding-bottom: 0;
+}
+
+@keyframes flipdown {
+  0% {
+    opacity: 0;
+    transform-origin: top center;
+    transform: rotateX(-90deg);
+  }
+  5% {
+    opacity: 1;
+  }
+  80% {
+    transform: rotateX(8deg);
+  }
+  83% {
+    transform: rotateX(6deg);
+  }
+  92% {
+    transform: rotateX(-3deg);
+  }
+  100% {
+    transform-origin: top center;
+    transform: rotateX(0deg);
+  }
+}
+
+
+
+.card {
+  border-radius: 24px;
+}
+
+.card:hover {
+  transform: none;
+}
+
+/* Mobile */
+#faq-mobile .accordion {
+  width: 97%;
+}
+
+
+div#faq > div#faq-mobile > h2.faq-mobile {
+  font-family: "GROBOLD";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  background: linear-gradient(180deg, #ad3c3f 0%, #ff6165 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+h5.umum-mobile {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 18px;
+  color: #7d6a82;
+}
+
+div#faq > div#faq-mobile > div.card > div.card-body > h6.pertanyaan-mobile {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  color: #717171;
+}
+
+.mob > .card > .card-body > .accordion > ul > li > p {
+  font-size: 10px;
+  line-height: normal;
+}
+
+.mob > .card > .card-body > .accordion > ul > li > h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  background: linear-gradient(180deg, #ad3c3f 0%, #ff6165 96.35%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-right: 5px;
+  margin-bottom: 0;
+  line-height: normal;
+}
+
+.mob > .card > .card-body > .accordion > ul > li > hr {
+  width: 100%;
+  border: 1px solid #ad3c3f;
+  background-color: #ad3c3f;
+  margin-bottom: 6px;
+}
+
+div#faq
+  > div#faq-mobile
+  > div.card
+  > div.card-body
+  > div.accordion
+  > ul
+  > li
+  > p.isi-faq-mobile {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 12px;
+  text-align: justify;
+  color: #717171;
+  margin-top: 0;
+  letter-spacing: 0;
+}
+
+
+div#faq
+  > div#faq-mobile
+  > div.card
+  > div.card-body
+  > div.accordion
+  ul
+  li
+  i::before,
+ul li i::after {
+  content: "";
+  position: absolute;
+  background: #ff6165;
+  width: 3px;
+  height: 9px;
+}

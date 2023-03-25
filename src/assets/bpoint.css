@@ -1,0 +1,256 @@
+/* infografis */
+@media (max-width: 1300px) {
+    .section.bg-info {
+      height: 390vh;
+      margin: 0;
+      background-image: url("../assets/home/info2.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    section img.left2 {
+        position: absolute;
+        left: 0;
+        top: 90vh;
+      }
+      section img.right2 {
+        position: absolute;
+        right: 0;
+        top: 90vh;
+      }
+      .mskt {
+        margin-top: 1500px;
+      }
+      section.bg-home {
+        height: 300vh;
+        margin: 0;
+        background-image: url("../assets/home/latar.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      section.bg-home-3 {
+        height: 160vh;
+        margin: 0;
+        background-image: url("../assets/home/latar31.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .section.bg-desc {
+        height: 1570px;
+        margin: 0;
+        background-image: url("../assets/home/desc.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .section.bg-desc2 {
+        height: 4350px;
+        margin: 0;
+        background-image: url("../assets/home/desc25.png");
+        background-size: cover;
+        background-position: center;  
+        background-repeat: no-repeat;
+      }
+      .section.bg-desc10 {
+        height: 4050px;
+        margin: 0;
+        background-image: url("../assets/home/desc25.png");
+        background-size: cover;
+        background-position: center;  
+        background-repeat: no-repeat;
+      }
+      .section.bg-desc5 {
+        height: 260vh;
+        margin: 0;
+        background-image: url("../assets/home/desc.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .bg-faq {
+        height: 410vh;
+        margin: 0;
+        background-image: url("../assets/home/faq.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-position: relative; */
+      }
+      .section2 {
+        background-image: url(../assets//img/section2.png);
+        background-size: cover;
+        background-color: #ffffff;
+        height: 180vh;
+      }
+      span.studfest {
+        color: #f9b95c;
+        font-family: "grobold", Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        font-weight: 500;
+        text-shadow: -4px -4px 0 #28244c, 4px -4px 0 #28244c, -4px 4px 0 #28244c,
+          4px 4px 0 #28244c;
+        padding-bottom: 15px;
+      }
+  }
+
+  @media (max-width: 576px) {
+    .section.bg-desc {
+      height: 1770px;
+      margin: 0;
+      background-image: url("../assets/home/mobile/desc3.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .section.bg-desc2 {
+      height: 6050px;
+      margin: 0;
+      background-image: url("../assets/home/desc25.png");
+      background-size: cover;
+      background-position: center;  
+      background-repeat: no-repeat;
+    }
+    .section.bg-desc10 {
+      height: 5550px;
+      margin: 0;
+      background-image: url("../assets/home/desc25.png");
+      background-size: cover;
+      background-position: center;  
+      background-repeat: no-repeat;
+    }
+    .section.bg-info {
+      height: 4800px;
+      margin: 0;
+      background-image: url("../assets/home/info2.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    span.studfest {
+      color: #f9b95c;
+      font-family: "grobold", Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      font-weight: 500;
+      text-shadow: -2px -2px 0 #28244c, 2px -2px 0 #28244c, -2px 2px 0 #28244c,
+        2px 2px 0 #28244c;
+      padding-bottom: 15px;
+      text-align: center;
+    }
+    .section.bg-desc5 {
+      height: 1870px;
+      margin: 0;
+      background-image: url("../assets/home/mobile/desc1.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+  @media (min-width: 1300px) {
+    span.studfest {
+      color: #f9b95c;
+      font-family: "grobold", Arial, Helvetica, sans-serif;
+      font-size: 50px;
+      font-weight: 500;
+      text-shadow: -4px -4px 0 #28244c, 4px -4px 0 #28244c, -4px 4px 0 #28244c,
+        4px 4px 0 #28244c;
+      padding-bottom: 15px;
+    }
+    .section2 {
+      background-image: url(../assets//img/section2.png);
+      background-size: cover;
+      background-color: #ffffff;
+      height: 120vh;
+    }
+    .section.bg-info {
+      height: 260vh;
+      margin: 0;
+      background-image: url("../assets/home/info.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    section img.left2 {
+        position: absolute;
+        left: 0;
+        top: 98vh;
+      }
+      section img.right2 {
+        position: absolute;
+        right: 0;
+        top: 98vh;
+      }
+      .mskt {
+        margin-top: 250vh;
+      }
+      section.bg-home {
+        height: 250vh;
+        margin: 0;
+        background-image: url("../assets/home/latar.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      section.bg-home-3 {
+        height: 130vh;
+        margin: 0;
+        background-image: url("../assets/home/latar31.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .section.bg-desc {
+        height: 1500px;
+        margin: 0;
+        background-image: url("../assets/home/desc.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .section.bg-desc2 {
+        height: 460vh;
+        margin: 0;
+        background-image: url("../assets/home/mobile/desc8.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .section.bg-desc10 {
+        height: 460vh;
+        margin: 0;
+        background-image: url("../assets/home/mobile/desc8.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .section.bg-desc5 {
+        height: 180vh;
+        margin: 0;
+        background-image: url("../assets/home/desc.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .bg-faq {
+        height: 270vh;
+        margin: 0;
+        background-image: url("../assets/home/faq.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-position: relative; */
+      }
+      
+  }
+
